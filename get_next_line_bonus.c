@@ -84,7 +84,7 @@ char	*ft_read(int fd, char *l_buff)
 			return (NULL);
 		}
 		buff[read_res] = '\0';
-		l_buff = ft_strjoin(l_buff, buff);
+		l_buff = ft_strjoin_gnl(l_buff, buff);
 	}
 	free(buff);
 	return (l_buff);

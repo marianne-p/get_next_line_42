@@ -38,7 +38,7 @@ size_t	ft_strlen_gnl(char *str)
 	return (i);
 }
 
-char	*ft_strjoin(char *s1, char *s2)
+char	*ft_strjoin_gnl(char *s1, char *s2)
 {
 	char	*ret;
 	int		i;
