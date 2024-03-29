@@ -26,7 +26,7 @@ char	*ft_buff_left(char *l_buff)
 		free (l_buff);
 		return (NULL);
 	}
-	r = (char *)malloc(ft_strlen(l_buff) - i + 1);
+	r = (char *)malloc(ft_strlen_gnl(l_buff) - i + 1);
 	if (r == NULL)
 		return (NULL);
 	i++;
